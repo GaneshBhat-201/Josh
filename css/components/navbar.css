@@ -1,0 +1,49 @@
+header{
+    background-color: white;
+    position:sticky;
+    height: 152px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 96px 38px 93px;
+    box-shadow: 4px 0 10px #2F7AF91A;
+}
+
+.logo{
+    height: 76px;
+    width: 165px;
+}
+
+.menu{
+    display: flex;
+    height: fit-content;
+}
+
+.options{
+    list-style: none;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 0.7px;
+    padding-top: 0.5px;
+} 
+
+
+
+.selected{
+    padding: 10px 14px;
+    background-color: #FFB400;
+    border-radius: 5px;
+}
+
+
+.options:hover{
+    cursor: pointer;
+}
+
+
+

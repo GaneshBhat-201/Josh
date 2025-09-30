@@ -1,0 +1,87 @@
+.intro{
+    height: 630px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    background-color: white;
+}
+
+.hero-image{
+    width: 808px;
+    height: 550px;
+}
+
+.hero-content{
+    width: 632px;
+    height: 405.17px;
+    margin-bottom: 100px;
+    margin-left: 99px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.7px;
+}
+
+.name div{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.yellow{
+    color: #FFB400;
+}
+
+.hire{
+    width: 152px;
+    height: 50px;
+    padding-left: 0px;
+    background-color: #FFB400;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 108px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.desc{
+    margin-top: 70px;
+    color: grey;
+    line-height: 22px;
+}
+
+.simg{
+    width: 22.83px;
+    height: 21.58px;
+}
+
+.orange-elipse{
+    position: absolute;
+    top: 192.47px;
+    left:57.39px
+}
+
+.blue-rect{
+    position: absolute;
+    top: 601.23px;
+    left: 533.75px;
+    width: 30px;
+    height: 28px;
+}
+
+.green-elipse{
+    position: absolute;
+    top: 721.29px;
+    left:125.89px;
+}
+
+.orange-rect{
+    position: absolute;
+    top: 245.97px;
+    left: 1278.16px;
+    width: 30px;
+    height: 28px;
+}
