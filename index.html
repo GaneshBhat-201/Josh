@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/components/hero.css">
     <link rel="stylesheet" href="./css/components/project.css">
     <link rel="stylesheet" href="./css/components/recommendation.css">
+    <link rel="stylesheet" href="./css/components/contact.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
 </head>
 <body>
     <header>
@@ -16,24 +18,24 @@
         <img src="./images/logo.png" alt="logo" class="logo">
         
         <ul class="menu">
-            <li class="options selected">Home</li>
-            <li class="options">Skills</li>
-            <li class="options">Education</li>
-            <li class="options">Projects</li>
-            <li class="options">Recommendations</li>
-            <li class="options">Contact</li>
+            <li class="options selected"><a href="#intro">Home</a></li>
+            <li class="options"><a href="#intro">Skills</a></li>
+            <li class="options"><a href="#intro">Education</a></li>
+            <li class="options"><a href="#projects">Projects</a></li>
+            <li class="options"><a href="#recommendations">Recommendations</a></li>
+            <li class="options"><a href="#contact">Contact</a></li>
         </ul>
         
     </header>
 
-    <section class="intro">
+    <section id="intro">
         <div class="hero-content">
             <div class="name">
                 <div>I'm Rayan  Adlrdard</div>
                 <div><span class="yellow">Front-end</span> Developer</div>
             </div>
             <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dolores, itaque nam, aspernatur modi rerum non perspiciatis.</p>
-            <button class="hire">HIRE ME -></button>
+            <button class="hire">HIRE ME &nbsp; -></button>
         </div>
         <img src="./images/developer-illustration.png" alt="developer" class="hero-image">
     </section>
@@ -42,10 +44,11 @@
     <img src="./images/Ellipse 13.png" alt="elipse" class="orange-elipse simg">
     <img src="./images/Rectangle 51.png" alt="rectangle" class="orange-rect simg">
     <img src="./images/Rectangle 52.png" alt="rectangle" class="blue-rect simg">
+    <img src="./images/Ellipse 12.png" alt="elipse" class="green-elipse-top simg">
+    <img src="./images/Polygon 1.png" alt="elipse" class="polygon simg">
+    
 
-
-
-    <section class="projects">
+    <section id="projects">
         <div class="project-head">
             <h2 class="ptitle">Projects</h6>
             <p class="pdesc">Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
@@ -154,7 +157,7 @@
         </div>
     </section>
 
-    <section class="recommendations">
+    <section id="recommendations">
         <div class="rec-head">
             <h2 class="rec-title">Recommendations</h2>
             <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
@@ -217,10 +220,153 @@
                 </div>
             </div>
         </div>
+        <div class="slider-dots" id="slider-dots"></div>
+    </section>
+
+    <section id="contact">
+        <div class="form-div">
+            <h2>Leave ME Your Info</h2>
+            <form action="#" class="form">
+                <div class="form-input">
+                    <h4>Your Full Name ( Required)</h4>
+                    <input type="text" class="input">
+                </div>
+                <div class="form-input">
+                    <h4>Your Email ( Required)</h4>
+                    <input type="text" class="input">
+                </div>
+                <div class="form-input">
+                    <h4>Subject</h4>
+                    <input type="text" class="input">
+                </div>
+                <div class="form-input">
+                    <h4>Your Message</h4>
+                    <input type="text" class="input textbox">
+                </div>
+                <button class="send-msg">SEND MESSAGE</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="contact-listing">
+                <div class="contact-card">
+                    <div class="circle">
+                        <img src="./images/location.png" alt="logo">
+                    </div>
+                    <div class="main-info">
+                        <div class="info-key">
+                            <p>Country:</p>
+                            <p>City:</p>
+                            <p>Streat:</p>
+                        </div>
+                        <div class="info-value">
+                            <p>Bangladesh</p>
+                            <p>Dhaka</p>
+                            <p>35 Vhatara Badda</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="circle">
+                        <img src="./images/mail.png" alt="logo">
+                    </div>
+                    <div class="main-info">
+                        <div class="info-key">
+                            <p>Email:</p>
+                            <p>Skype:</p>
+                            <p>Telegram:</p>
+                        </div>
+                        <div class="info-value">
+                            <p>YourEmail@Gmail.Com</p>
+                            <p>@Yourusername</p>
+                            <p>@Yourusername</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="circle">
+                        <img src="./images/Mobile.png" alt="logo">
+                    </div>
+                    <div class="main-info">
+                        <div class="info-key">
+                            <p>Support Service:</p>
+                            <p>Office:</p>
+                            <p>Personal:</p>
+                        </div>
+                        <div class="info-value">
+                            <p>15369</p>
+                            <p>+58 (021)356 587 235</p>
+                            <p>+58 (021)356 587 235</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
-    <footer></footer>
-    <script src="script.js"></script>
+    <footer>
+        <div class="footer-logo">
+            <img src="./images/Frame.png" alt="logo" class="footer-frame">
+            <img src="./images/Frame (1).png" alt="logo" class="footer-frame">
+            <img src="./images/Frame (2).png" alt="logo" class="footer-frame">
+            <img src="./images/Frame (3).png" alt="logo" class="footer-frame">
+        </div>
+        <div class="footer-content">
+            <img src="./images/logo.png" alt="logo" class="main-logo">
+            <div class="f-content">
+                <div class="footer-rating">
+                    <div class="footer-card">
+                        <img src="./images/soungnc.jpg" alt="logo" class="f-card-img soungnc">
+                        <p>4.5/5 Rating On Lorem</p>
+                    </div>
+                    <div class="footer-card">
+                        <img src="./images/nlogo.jpg" alt="logo" class="f-card-img">
+                        <p>9/10 Rating On Ipsum</p>
+                    </div>
+                    <div class="footer-card">
+                        <img src="./images/fortcof.jpg" alt="logo" class="f-card-img fortcof">
+                        <p>4.5/5 Rating On Dorel</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="f-link">
+                        <div class="link-head">Quick Links</div>
+                        <ul>
+                            <li>Home</li>
+                            <li>Skills</li>
+                            <li>Education</li>
+                            <li>Projects</li>
+                            <li>Recommendations</li>
+                        </ul>
+                    </div>
+                    <div class="f-link">
+                        <div class="link-head">Portfolio</div>
+                        <ul>
+                            <li>Frontend Development</li>
+                            <li>Backend Development</li>
+                            <li>Website Design</li>
+                            <li>Machine learning</li>
+                            <li>Problem Solving & DSA</li>
+                        </ul>
+                    </div>
+                    <div class="f-link">
+                        <div class="link-head">Connect</div>
+                        <ul>
+                            <li><img src="./images/linkedin.png" alt="linkedin" class="social-media linkedin"></li>
+                            <li><img src="./images/instagram.png" alt="insta" class="social-media insta"></li>
+                            <li><img src="./images/facebook.png" alt="facebook" class="social-media facebook"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">
+            <img src="./images/Copyright Circle.png" alt="copyright"> &nbsp;  2024 Copyright, All Right Reserved
+        </p>
+    </footer>
+
+
+    <script src="./js/script.js"></script>
 </body>
 </html>

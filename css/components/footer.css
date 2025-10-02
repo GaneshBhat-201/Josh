@@ -1,0 +1,149 @@
+footer{
+    height: 621px;
+    width: 1244px;
+    margin-left: 97.85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer-logo{
+    height: 144px;
+    width: 970px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-frame{
+    width: 140px;
+}
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+
+    min-height: 401px;
+}
+
+.main-logo{
+    height: 76px;
+    width: 165px;
+    margin-top: 42px;
+}
+
+.f-content{
+    min-height: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-rating{
+    min-height: 230px;
+    width: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links{
+    min-height: 202px;
+    min-width: 780px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card{
+    min-height: 61px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-card-img{
+    height: 40px;
+    width: 73px;
+    border-radius: 4px;
+}
+
+.footer-card p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #767676;
+}
+
+.soungnc{
+    width: 91px;
+}
+
+.fortcof{
+    width: 76px;
+}
+
+.link-head{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 1px;
+    margin-bottom: 25px;
+}
+
+
+.f-link{
+    height: 100%;
+}
+
+.f-link ul{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 14px;
+    padding-bottom: 28px;
+}
+
+.f-link li{
+    list-style: none;
+}
+
+.copyright{
+    font-size: 15px;
+    font-weight: 400;
+    color: #767676;
+    min-width: 283px;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2px;
+}
+
+.copyright img{
+    height: 24px;
+    width: 24px;
+}
+
+.social-media{
+    height: 25px;
+}
+
+.linkedin{
+    width: 100px;
+}
+
+.insta{
+    width: 125px;
+}
+
+.facebook{
+    width: 107px;
+}
+

@@ -1,0 +1,140 @@
+#contact{
+    height: 759.67px;
+    width: 1244px;
+    margin-top: 60px;
+    margin-left: 97.85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-div{
+    height: 100%;
+    width: 846px;
+}
+
+.contact-info{
+    height: 100%;
+    width: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-div h2{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.contact-info h2{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.form{
+    width: 100%;
+    height: 673.79px;
+    margin-top: 45px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-input{
+    width: 773.38px;
+}
+
+.form-input h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #767676;
+
+}
+
+.input{
+    height: 50px;
+    width: 773.38px;
+    background-color: #F0F0F6;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.textbox{
+    height: 210.42px;
+}
+
+.send-msg{
+    height: 50.38px;
+    width: 151px;
+    background-color: #FFB400;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 620px;
+}
+
+.contact-listing{
+    width: 100%;
+    height: 673.79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.contact-card{
+    height: 211.11px;
+    width: 372.7px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.circle{
+    height: 40.21px;
+    width: 40.29px;
+    border-radius: 100%;
+    background-color: #FFB400 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-info{
+    height: 114px;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-key{
+    display: flex;
+    flex-direction: column;
+    color: #767676;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: space-between;
+    height: 100%;
+    padding: 2px 0 10px 2px;
+}
+
+.info-value{
+    display: flex;
+    flex-direction: column;
+    color: #767676;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: end;
+    height: 100%;
+    padding: 4px 0 14px 0;
+    margin-right: 4px;
+}

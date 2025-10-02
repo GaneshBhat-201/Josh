@@ -1,4 +1,4 @@
-.intro{
+#intro{
     height: 630px;
     width: 1440px;
     display: flex;
@@ -34,7 +34,6 @@
 .hire{
     width: 152px;
     height: 50px;
-    padding-left: 0px;
     background-color: #FFB400;
     border: none;
     border-radius: 5px;
@@ -84,4 +83,17 @@ button:hover{
     left: 1278.16px;
     width: 30px;
     height: 28px;
+}
+
+.green-elipse-top{
+    position: absolute;
+    top: 222.15px;
+    left:742.39px;
+}
+
+.polygon{
+    position: absolute;
+    top: 728.04px;
+    left: 1314.64px;
+    height: 18px;
 }
