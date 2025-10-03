@@ -6,6 +6,7 @@
     margin-left: 97.85px;
     width: 1244.31px;
     height: 519.17px;
+    overflow: hidden;
 }
 
 .rec-head{
@@ -35,17 +36,18 @@
     height: 327.1px;
     margin-top: 44px;
     display: flex;
-    overflow-x: scroll;
+    margin-left: 70%;
 
-    scroll-snap-type: x mandatory; 
-    scroll-behavior: smooth; 
-    -ms-overflow-style: none; 
+    transition: transform 0.6s ease-in-out;
     scrollbar-width: none;
 }
 
 .rec-listing::-webkit-scrollbar {
     display: none;
 }
+
+
+
 
 .rec-card{
     height: 327.1px;
@@ -113,4 +115,29 @@
     font-weight: 400;
     color: #767676;
     margin-top: 8px;
+}
+
+
+
+
+
+
+.dots {
+  text-align: center;
+  margin-top: 38px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 3px;
+  background-color: #ffde8d;
+
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #ffb400;
 }
