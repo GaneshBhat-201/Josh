@@ -126,8 +126,8 @@ footer{
 }
 
 .copyright img{
-    height: 24px;
-    width: 24px;
+    height: auto;
+    width: fit-content;
 }
 
 .social-media{
