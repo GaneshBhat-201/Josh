@@ -1,6 +1,6 @@
 #intro{
-    height: 630px;
-    width: 1440px;
+    min-height: 630px;
+    max-width: 1440px;
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -8,13 +8,13 @@
 }
 
 .hero-image{
-    width: 808px;
+    max-width: 808px;
     height: 550px;
 }
 
 .hero-content{
-    width: 632px;
-    height: 405.17px;
+    max-width: 632px;
+    min-height: 405.17px;
     margin-bottom: 100px;
     margin-left: 99px;
     display: flex;
@@ -96,4 +96,21 @@ button:hover{
     top: 728.04px;
     left: 1314.64px;
     height: 18px;
+}
+
+
+@media(max-width:990px){
+    .hero-image{
+        display: none;
+    }
+
+    #intro{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-content{
+        align-items: center;
+        margin-left: 0;
+    }
 }

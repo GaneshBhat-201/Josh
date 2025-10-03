@@ -2,7 +2,7 @@
     height: 759.67px;
     width: 1244px;
     margin-top: 4px;
-    margin-left: 97.85px;
+    /* margin-left: 97.85px; */
     display: flex;
     justify-content: space-between;
 }
@@ -137,4 +137,13 @@
     height: 100%;
     padding: 4px 0 14px 0;
     margin-right: 4px;
+}
+
+
+@media(max-width:1230px){
+    #contact{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
 }

@@ -10,7 +10,6 @@
 body{
     font-family: "Inter", "Open Sans", sans-serif;
     background-color: #F0F0F6;
-    width: 1440px;
 }
 
 a{
@@ -22,6 +21,8 @@ a{
   display: flex;
   flex-direction: column;
   gap: 60px;
+  align-items: center;
+  max-width: 1440px;
 }
 
 

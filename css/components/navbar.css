@@ -1,15 +1,13 @@
-header{
+nav{
     background-color: white;
     position:sticky;
     height: 152px;
-    width: 1440px;
+    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 38px 96px 38px 93px;
     box-shadow: 4px 0 10px #2F7AF91A;
-    top: 0;
-    z-index: 100;
 }
 
 .logo{
@@ -47,5 +45,14 @@ header{
     cursor: pointer;
 }
 
+
+@media(max-width:1000px){
+    .menu{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+}
 
 
